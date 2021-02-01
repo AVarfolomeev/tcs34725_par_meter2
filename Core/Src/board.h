@@ -14,6 +14,7 @@
 #endif
 
 void main_loop(void);
+void CDC_OnDataReceived(uint8_t* pbuf, uint32_t *Len);
 
 #ifdef __cplusplus
 }
