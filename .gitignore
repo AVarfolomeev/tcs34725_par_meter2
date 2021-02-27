@@ -11,9 +11,7 @@
 *.elf
 *.hex
 *.map
-.cproject
 
-.project
 *.romfs
 *.log
 /Debug
