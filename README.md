@@ -18,4 +18,14 @@ normalized from 0..max counts [(256 - integration time) * 1024, max 65535] to 0.
 
 By default, color channels of sensor not used for PAR calclulation, i.e. (W R G B) = (1 0 0 0).
 
- 
+
+
+To build, unpack source project into new folder this way:
+
+c:\tcs_workspace\par_meter\par_meter.ioc 
+c:\tcs_workspace\par_meter\.cproject
+....
+and open folder c:\tcs_workspace as workspace in STM32CubeIDE
+then File->Import->General->Existing Projects into Workspace, select folder "c:\tcs_workspace\par_meter".
+
+the project folder must be named "par_meter", otherwise STM32CubeIDE can't recognize file par_meter.ioc.
